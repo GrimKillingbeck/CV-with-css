@@ -1,8 +1,10 @@
+
+
 div {
-  background-color : #F6F7D7;
-
-
+  background-color: #F6F7D7;
 }
+
+
 
 body{
 margin: 0;
@@ -11,21 +13,22 @@ font-family: 'Roboto', sans-serif;
 
 }
 
+
 h1 {
 margin-top: 0;
-font-family: 'Just Another Hand', cursive;
+font-family: 'Patrick Hand SC', cursive;
 color: #8946A6;
-font-size: 70px;
+font-size: 60px;
+
 }
 
 h2{
-font-family: 'Roboto', sans-serif;
-font-weight: 900;
+font-family: 'Patrick Hand SC', cursive;
 color: #8946A6;
 }
 
 h3{
-font-family: 'Roboto', sans-serif;
+font-family: 'Patrick Hand SC', cursive;
 font-weight: 900;
 color: #8946A6;
 }
@@ -50,13 +53,21 @@ color: #8946A6;
     right: 600px;
     top: 50px
   }
+.under-heading{
+  font-size: 20px;
 
+}
 
   hr {
  border: 8px dotted ;
  border-style: dotted none none none;
  width: 10%;
  color: #FF165D;
+}
+
+span.under {
+  text-decoration: underline;
+  font-weight: bold;
 }
 /*****MIDDLE CONTAINER STYLES********/
 .technical-columns {
@@ -73,4 +84,28 @@ color: #8946A6;
   padding-top: 30px;
   text-align:left;
   padding-left: 300px;
+}
+
+
+ul {
+  text-align: left;
+  padding-left: 550px;
+
+}
+
+table {
+  border-spacing: 325px 0px;
+
+}
+
+.SE {
+  padding-right: 75px;
+}
+
+.T1 {
+  padding-right: 23px;
+}
+
+.EBY {
+  padding-left: 15px;
 }
