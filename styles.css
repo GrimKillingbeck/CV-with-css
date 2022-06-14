@@ -13,10 +13,10 @@ font-family: 'Roboto', sans-serif;
 
 
 h1 {
-margin-top: 0;
+margin: 50px auto 0 auto;
 font-family: 'Sacramento', cursive;
 color: #8946A6;
-font-size: 60px;
+font-size: 90px;
 
 }
 
@@ -52,7 +52,7 @@ color: #8946A6;
     top: 50px
   }
 .under-heading{
-  font-size: 20px;
+  font-size: 2.5rem;
 
 }
 
@@ -97,13 +97,89 @@ table {
 }
 
 .SE {
-  padding-right: 75px;
+  padding-right: 150px;
 }
 
 .T1 {
-  padding-right: 23px;
+  padding-left: 225px;
+}
+
+.T12 {
+  position: relative;
+  right: 100px;
 }
 
 .EBY {
   padding-left: 15px;
+}
+
+/** Testing Button Hide-Unhide Functions**/
+
+button {
+background-color: #FF165D;
+color: #FFFFFF;
+border-radius: 5px;
+font-family: 'Roboto', sans-serif;
+box-shadow: inset 5px 1px #A91079;
+border-width: thin;
+font-size: 16px;
+height: 40px;
+}
+
+input {
+  display: none;
+}
+
+section > div {
+  display: none;
+}
+
+#radio-section-0:checked ~ #section-0 > div {
+  display: block;
+
+}
+
+#radio-section-1:checked ~ #section-1 > div {
+  display: block;
+}
+
+#radio-section-2:checked ~ #section-2 > div {
+  display: block;
+}
+
+
+/** word positioning for buttons**/
+.starry{
+ position: relative;
+ bottom: 15px;
+ color: #FFFFFF;
+}
+
+.dookie {
+  position: relative;
+  bottom: 15px;
+  color: #FFFFFF;
+
+}
+.starryexpert{
+  columns: 2;
+  column-gap: 200px;
+  padding-right: 200px;
+  text-align:left;
+}
+
+ul.nobullets{
+  columns: 2;
+  column-gap: 1px;
+  padding-right: 150px;
+}
+
+.footer-link {
+  color: #8946A6;
+  text-shadow:2px 2px #C3AED6;
+}
+
+.poopjob{
+  padding-left: 40px;
+  padding-right: 40px;
 }
